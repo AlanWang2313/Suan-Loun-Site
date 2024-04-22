@@ -1,5 +1,75 @@
-.test{
-  background-color: black;
-  width: 320px;
-  margin: auto;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+.header-menu{
+    height: 150px;
+    background-color: red;
+    padding: 0;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: flex-end; 
+}body{
+    padding: 0;
+    margin: 0;
+}
+
+.text{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.header-button{
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.header-button:hover{
+    background-color: white;
+    opacity: 0.8;
+}
+
+.delivery-options{
+    margin-top: 10px;
+    display: flex;
+    width: 80%;
+    background-color: white;
+    border-style:solid;
+    border-color: black;
+    margin-inline: auto;
+    border-width: 2px;
+    flex-direction: column;
+}
+
+.delivery-options{
+    .text{
+        margin-inline: auto;
+    }
+    form {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        input{
+            margin-inline: auto;
+            margin-right: 4px;
+        }
+    }
+}
+
+.categories-options{
+    margin-top: 10px;
+    display: flex;
+    width: 80%;
+    background-color: white;
+    border-style:solid;
+    border-color: black;
+    margin-inline: auto;
+    border-width: 2px;
+    flex-direction: column;
+    .text{
+        margin-left: 10px;
+    }
+    h3:hover{
+        cursor: pointer;
+    }
 }
